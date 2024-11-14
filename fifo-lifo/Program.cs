@@ -10,6 +10,7 @@ class Program
         stack.Push(20);
         stack.Push(30);
 
+        Console.WriteLine("LIFO:");
         Console.WriteLine($"Popped element: {stack.Pop()}");
         Console.WriteLine($"Popped element: {stack.Pop()}");
 
@@ -27,8 +28,7 @@ class Program
         queue.Enqueue(20);
         queue.Enqueue(30);
 
-        Console.WriteLine($"Front of the queue: {queue.Peek()}");
-
+        Console.WriteLine("FIFO:");
         Console.WriteLine($"Dequeued element: {queue.Dequeue()}");
         Console.WriteLine($"Dequeued element: {queue.Dequeue()}");
 
